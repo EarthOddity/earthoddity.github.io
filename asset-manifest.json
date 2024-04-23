@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/earthoddity.github.io/static/css/main.9297a617.css",
-    "main.js": "/earthoddity.github.io/static/js/main.c0da4072.js",
-    "static/media/pokemon-logo.png": "/earthoddity.github.io/static/media/pokemon-logo.87626648eb535697d903.png",
-    "index.html": "/earthoddity.github.io/index.html",
-    "main.9297a617.css.map": "/earthoddity.github.io/static/css/main.9297a617.css.map",
-    "main.c0da4072.js.map": "/earthoddity.github.io/static/js/main.c0da4072.js.map"
+    "main.css": "/static/css/main.9297a617.css",
+    "main.js": "/static/js/main.192cb070.js",
+    "static/media/pokemon-logo.png": "/static/media/pokemon-logo.87626648eb535697d903.png",
+    "index.html": "/index.html",
+    "main.9297a617.css.map": "/static/css/main.9297a617.css.map",
+    "main.192cb070.js.map": "/static/js/main.192cb070.js.map"
   },
   "entrypoints": [
     "static/css/main.9297a617.css",
-    "static/js/main.c0da4072.js"
+    "static/js/main.192cb070.js"
   ]
 }
