@@ -10,7 +10,7 @@ function NavBar() {
                     <NavLink to="/" activeClassName="active">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="src/about" onClick={console.log('about page loaded')} activeClassName="active">About</NavLink>
+                    <NavLink to="/about" activeClassName="active">About</NavLink>
                 </li>
             </ul>
         </nav>
