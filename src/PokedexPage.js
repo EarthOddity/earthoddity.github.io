@@ -1,17 +1,8 @@
 import './index.css'
 import React from "react";
 import PokedexGrid from "./PokedexGrid";
-import PokemonCard from "./PokemonCard";
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-} from "react-router-dom";
 import { useState, useEffect } from "react";
-import NavBar from "./NavBar";
-import About from "./About";
-import logo from "./images/pokemon-logo.png";
+
 
 function PokedexPage() {
     const [pokeCards, setPokeCards] = useState([]);
@@ -19,7 +10,7 @@ function PokedexPage() {
     const [allPokemons, setAllPokemons] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [page, setPage] = useState(1);
-    const pokemonsPerPage = 21;
+    const pokemonsPerPage = 24;
 
     useEffect(() => {
         fetchAllPokemons();
